@@ -1,0 +1,81 @@
+D:\Work Desktop Material\Data Structure & Algorithm Practice\AlgoCasts\exercises\reversestring>node inspect index.js
+< Debugger
+< listening on ws://127.0.0.1:9229/44875772-8cdb-436c-b386-6d1db5ef2bb7
+< For help, see: https://nodejs.org/en/docs/inspector
+< Debugger attached.
+debug> (node:23788) [DEP0124] DeprecationWarning: REPLServer.rli is deprecated
+Break on start in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:106
+ 104 }
+ 105
+>106 reverse('hello');                       // Calling the function
+ 107
+ 108
+debug> c
+break in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:100
+  98   for (let character of str) {
+  99     reversed = character + reversed;
+>100     debugger;                           // Debugger Statement
+ 101   }
+ 102
+debug> repl
+Press Ctrl + C to leave debug repl
+> character
+'h'
+> reversed
+'h'
+debug> c
+break in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:100
+  98   for (let character of str) {
+  99     reversed = character + reversed;
+>100     debugger;                           // Debugger Statement
+ 101   }
+ 102
+debug> repl
+Press Ctrl + C to leave debug repl
+> character
+'e'
+> reversed
+'eh'
+debug> c
+break in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:100
+  98   for (let character of str) {
+  99     reversed = character + reversed;
+>100     debugger;                           // Debugger Statement
+ 101   }
+ 102
+debug> repl
+Press Ctrl + C to leave debug repl
+> character
+'l'
+> reversed
+'leh'
+debug> c
+break in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:100
+  98   for (let character of str) {
+  99     reversed = character + reversed;
+>100     debugger;                           // Debugger Statement
+ 101   }
+ 102
+debug> repl
+Press Ctrl + C to leave debug repl
+> character
+'l'
+> reversed
+'lleh'
+debug> c
+break in file:///D:/Work%20Desktop%20Material/Data%20Structure%20&%20Algorithm%20Practice/AlgoCasts/exercises/reversestring/index.js:100
+  98   for (let character of str) {
+  99     reversed = character + reversed;
+>100     debugger;                           // Debugger Statement
+ 101   }
+ 102
+debug> repl
+Press Ctrl + C to leave debug repl
+> character
+'o'
+> reversed
+'olleh'
+debug> c
+< Waiting f
+< or the debugger to disconnect...
+debug>

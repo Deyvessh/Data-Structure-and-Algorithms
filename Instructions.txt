@@ -1,0 +1,6 @@
+https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/ - Course link i am learning
+
+1..  npm install -g jest -> to download jest Enviornment on node after installing node.js
+2..  jest -> command to run all test files. 
+3..  jest anyFileName/test.js --watch or jest anyFileName --watch -> to run the particular test file.
+4..  Atom to run the Enviornment to run code on and node.js to be installed before running test commands.
